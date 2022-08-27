@@ -10,7 +10,7 @@ export class Elemento {
             mostraResultado.textContent = nome.value;
             let limite = 11;
             let num1 = nome.value;
-            if (num1 == randomNumero(0, 1)) {
+            if (num1 == randomNumero(0, 10)) {
                 mostraResultado.textContent = 'Parábens!!! ' + perguntaNome + ', ' + 'você acertou!!! ' + ' número advinhado foi...' + num1 + '.';
             }
             2;

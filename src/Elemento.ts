@@ -18,7 +18,7 @@ export class Elemento {
             let limite:Number = 11
             let num1:Number | any = nome.value
 
-            if(num1 == randomNumero(0,1)){
+            if(num1 == randomNumero(0,10)){
                 mostraResultado.textContent = 'Parábens!!! ' + perguntaNome + ', ' + 'você acertou!!! ' + ' número advinhado foi...' + num1 + '.'
  
             } 2
