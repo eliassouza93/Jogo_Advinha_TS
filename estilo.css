@@ -47,10 +47,8 @@ h2{
     color: black;
     font-size: 1.5em;
     text-align: center;
-    display: flex;
-    align-items: center;
-   
-
+    padding: 2px;
+ 
 }
 span{
     margin: 0 auto;

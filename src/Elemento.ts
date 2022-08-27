@@ -19,10 +19,10 @@ export class Elemento {
             let num1:Number | any = nome.value
 
             if(num1 == randomNumero(0,1)){
-                mostraResultado.textContent = 'Parábens!! ' + perguntaNome + ', ' + 'você acertou! ' + 'o número advinhado foi...' + num1 + '.'
+                mostraResultado.textContent = 'Parábens!!! ' + perguntaNome + ', ' + 'você acertou!!! ' + ' número advinhado foi...' + num1 + '.'
  
-            }
-
+            } 2
+1
            if(num1 >= limite){
                alert(perguntaNome +',' + ' o número: ' + nome.value + ' É maior do que o limite permitido.')
            }
